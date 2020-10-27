@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formularis WEB</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Erick Pastrano">
+        <meta name="description" content="Formulari">
+        <meta name="keywords" content="Formulari d'alumnes">
+        <link rel="stylesheet" type="text/css" href="cssformulario/formlarioCss.css">
+    </head>
+    <body>
+        <h1>Formulari d'alumnes SMX2</h1>   
+        <form action="mailto:erick.inf3@gmail.com?subject=entrega4-m8-uf5"> 
+            <table>
+                <tr>
+                    <th>Nom: </th>
+                    
+                        <td id="contenidor1"><input type="text" required size="60" maxlength="20" placeholder="Escriu el teu nom"></td>
+                    
+                </tr> 
+                <tr>  
+                    <th>Cognoms: </th>
+                    <td id="contenidor2"><input type="text" required size="60" maxlength="80" placeholder="Escriu els teus cognoms"></td>
+                </tr>
+                <tr>   
+                    <th>Email: </th>
+                    <td><input id="contenidor3" type="email" required size="30"  maxlength="30" placeholder="Escriu el teu email"></td>
+                </tr>
+                <tr>    
+                    <th>Data de naixement: </th>
+                    <td><input type="date" value="1999-01-01"></td>
+                </tr> 
+                <tr>    
+                    <th>Color preferit: </th>
+                    <td><input type="color" value="#FF0000"></td>
+                </tr>
+                <tr>
+                    <th rowspan="6">Mòduls Preferits de SMX2: </th>
+                    <td><input type="checkbox">M4 - Sistemes Operatius en Xarxa</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">M6 - Seguretat informàtica</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">M7 - Serveis en Xarxa</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked>M8 - Aplicacions Web</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">M10 - Empresa i Iniciativa emprendedora</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">M11 - Anglès Técnic</td>
+                </tr>
+                <tr>
+                    <th rowspan="5">Que voldries fer després d'acabar SMX?</th>
+                    <td><input type="radio">CFGS DAM</td>
+                </tr>
+                <tr>
+                    <td><input type="radio">CFGS DAW</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" checked>CFGS ASIX</td>
+                </tr>
+                <tr>
+                    <td><input type="radio">Treballar</td>
+                </tr>
+                <tr>
+                    <td><input type="radio">Res</td>
+                </tr>
+                <tr>    
+                    <th>Que t'esta semblant el llenguatge HTML? </th>
+                    <td>
+                        <select name="que t'ha semblat">
+                            <option>M'ha agradat molt</option>
+                            <option selected>M'ha agradat</option>
+                            <option>Ni fu ni fa</option>
+                            <option>No m'ha agradat gaire</option>
+                            <option>No m'ha agradat gens</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>    
+                    <th>Nota que esperes d'aquesta entrega </th>
+                    <td><input type="number" max="10"></td>
+                </tr>
+                <tr>    
+                    <th>Escriu un password per xifrar l'entrega: </th>
+                    <td><input type="password" size="10" maxlength="10" required placeholder="Escriu un pass"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar respostes!">
+                    </td>
+                    <td><input type="reset" value="Netejar formulari!!"></td>
+                </tr>     
+            </table>
+        </form>
+        
+    </body>
+</html>    
